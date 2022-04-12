@@ -1,10 +1,12 @@
 <?php
 
-# Essa é um exemplo de classe muito prpblemática.
+# Essa é um exemplo de classe muito problemática.
 # O problema é que a classe não está bem definida, e tem muitas responsabilidades.
-# O ideal seria que ela fosse apenas uma classe anemica, apenas alterando os valores dos atributos.
+# O ideal seria que ela fosse apenas uma classe anêmica, apenas alterando os valores dos atributos.
 # Porém, ela faz conexão com o banco de dados, e faz a persistência dos dados.
-# Cria cateogrias, cria curso, faz a persistência dos dados.
+# Cria cateogrias, cria curso e também altera os dados dos atributos.
+
+# Uma aplicação ter cada uma das classes instanciando a conexão com o banco de dados, é uma problema enorme.
 
 class Course {
 
