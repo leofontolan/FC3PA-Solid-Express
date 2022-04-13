@@ -8,7 +8,16 @@ abstract class Video
 
 class Movie extends Video
 {
-        
+
+    public function findInterest()
+    {
+        //Calcula
+    }
+}
+
+
+class TVShow extends Video
+{
     public function findInterest()
     {
         //Calcula
